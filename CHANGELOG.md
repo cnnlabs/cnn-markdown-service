@@ -1,5 +1,18 @@
 # CNN Markdown Service Changelog
 
+## 2016-03-02, Version 1.2.0, @jamsyoung
+
+### Notable changes
+- Fix exposed HTML around lists and unencoded urls
+
+### Commits
+* [[`32ae266b99`](https://github.com/cnnlabs/cnn-markdown-service/commit/32ae266b99)] - **(SEMVER-MINOR)** Added fix to encode parentheses in urls (#8) (Matt) [#8](https://github.com/cnnlabs/cnn-markdown-service/pull/8)
+* [[`411320a5fa`](https://github.com/cnnlabs/cnn-markdown-service/commit/411320a5fa)] - **(SEMVER-MINOR)** **markdown-service**: add support for ul/ol (#4) (Katie Owen) [#4](https://github.com/cnnlabs/cnn-markdown-service/pull/4)
+* [[`56327726a4`](https://github.com/cnnlabs/cnn-markdown-service/commit/56327726a4)] - **(SEMVER-MINOR)** **markdown-service**: update ordered lists (Katie Owen) [#6](https://github.com/cnnlabs/cnn-markdown-service/pull/6)
+* [[`050ea476af`](https://github.com/cnnlabs/cnn-markdown-service/commit/050ea476af)] - **(SEMVER-MINOR)** **markdown-service**: single quote encoding (sean joseph) [#7](https://github.com/cnnlabs/cnn-markdown-service/pull/7)
+* [[`a8c6e35883`](https://github.com/cnnlabs/cnn-markdown-service/commit/a8c6e35883)] - **(SEMVER-MINOR)** **markdown-service**: add support for del tags (#3) (Katie Owen) [#3](https://github.com/cnnlabs/cnn-markdown-service/pull/3)
+
+
 
 ## 2016-10-24, Version 1.1.0, @jamsyoung
 
@@ -14,7 +27,7 @@ See https://github.com/cnnlabs/cnn-markdown-service/labels/defect for complete a
 current list of known issues.
 
 
-# Commits
+### Commits
 
 * [[`da6b2a3e71`](https://github.com/cnnlabs/cnn-markdown-service/commit/da6b2a3e71)] - **markdown-service**: add support for numbered lists (#5) (Katie Owen)
 * [[`44038296c3`](https://github.com/cnnlabs/cnn-markdown-service/commit/44038296c3)] - **test**: add additional unit test around strong tag conversion (James Young)
